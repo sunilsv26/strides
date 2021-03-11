@@ -1,0 +1,17 @@
+.Section1 {
+  display: flex;
+  padding-left: 50px;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: none;
+  background: url("https://ak.picdn.net/shutterstock/videos/19277281/thumb/2.jpg");
+  margin-bottom: 20px;
+}
+
+.Section1 h2 {
+  color: white;
+}
+

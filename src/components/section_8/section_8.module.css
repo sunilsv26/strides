@@ -1,0 +1,19 @@
+.Section8{
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.Brand{
+    text-align: center;
+}
+
+.FooterMenu{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    flex-wrap: wrap;
+}
+.FooterMenu div{
+    padding: 0px 10px;
+}
+

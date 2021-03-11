@@ -1,0 +1,23 @@
+.Nav{
+    height: 50px;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Nav img{
+    height: 100%;
+}
+.DesktopOnly{
+   font-size: 22px;
+   font-weight: 600;
+   color:rgba(86,87,91,.945)
+}
+
+@media (max-width:500px){
+    .DesktopOnly{
+        display: none;
+    }
+}

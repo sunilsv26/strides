@@ -1,0 +1,14 @@
+.Section5{
+    display: flex;
+    padding-left: 50px;
+    justify-content: space-between;
+}
+
+
+.Section5 h2{
+    color: #00965e;
+}
+
+.Color{
+    background-color: #00965e;
+}

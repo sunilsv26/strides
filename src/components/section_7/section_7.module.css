@@ -1,0 +1,17 @@
+.Section7{
+    width: 100%;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color:#00965e ; 
+    box-sizing: border-box;
+}
+
+.Subscibe{
+    text-decoration: underline;
+}
+
+@media only  screen and (max-width: 680px) {
+    
+}

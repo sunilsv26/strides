@@ -1,0 +1,41 @@
+.Section3{
+    padding-left: 50px;
+    display: flex;
+    padding-bottom: 10px;
+    height: 350px;
+}
+
+.Section3 .Building{
+    font-weight: 800;
+    color: #00965e;
+    font-size: x-large;
+}
+
+.Section3 .P1{
+    height: 100%;
+    margin-right: 20px;
+}
+
+.Section3 .P1 img{
+    height: 100%;
+}
+
+.P2{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+@media only  screen and (max-width: 680px){
+    .Section3{
+        display: block;
+        height: auto;
+    }
+    .Section3 .P1{
+        display: none;
+    }
+    .Section3 .P2 img{
+        display: none;
+    }
+}

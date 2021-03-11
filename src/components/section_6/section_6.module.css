@@ -1,0 +1,26 @@
+.Section6{
+    display: flex;
+    padding-left: 50px;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.Card{
+    width: 25%;
+    padding: 20px;
+    margin-right: 20px;
+    box-shadow: 1px 2px 3px grey;
+    background-color: rgb(219, 217, 217);
+}
+
+.Grey{
+    color: grey;
+}
+
+@media only  screen and (max-width: 680px) {
+    .Section6{display: block;}
+    .Section6 .Card{
+        width: 60%;
+        margin-bottom: 20px;
+    }
+}
